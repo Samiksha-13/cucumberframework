@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="30.281" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="login functionality" name="verify_valid_login_TC01" time="22.147">
+<system-out><![CDATA[
+Given user should on login page.............................................passed
+When user enters valid credentials and click on login button................passed
+Then user should be navigated to home page..................................passed
+And user can validate logout link...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="login functionality" name="verify_Invalid_login_TC02" time="7.676">
+<system-out><![CDATA[
+Given user should on login page.............................................passed
+When user enters invalid credentials and click on login button..............passed
+Then user should be navigated to login page.................................passed
+And user can validate error message.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
