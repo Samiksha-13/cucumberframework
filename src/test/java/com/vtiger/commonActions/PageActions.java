@@ -31,6 +31,7 @@ public class PageActions {
 	
 	public String getScreenshot() 
 	{
+		System.out.println("git");
 		Date d = new Date();
 		DateFormat ft = new SimpleDateFormat("ddMMyyyyhhmmss");
 		String fileName = ft.format(d);
